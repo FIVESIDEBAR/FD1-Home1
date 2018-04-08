@@ -114,25 +114,31 @@ padding: 20px 0 20px 0;
 .contentBlock{
 	background-image: none;	
 	}
+.header {
+	display: none;
+}	
 } 
 
 @media screen and (max-width: 435px){
 	img {
-	padding: 0 10px 0 10px;
-	float: left;	
+	width: 100%;
+	padding: 0;
 	}
 
 	h3 {
 	font-weight: normal;	
 	}
 	ul.ulBlock {
+
 		padding: 10px 0 10px 0;
 	}
-
-	.header { 
-	padding: 15px 0 15px 0;
-	font-size: 13px;
-	 }	
+	ul li {
+		white-space: nowrap;
+		display: inline;
+	}
+	.hidden {
+		display: none;
+	}
 
 	.menuBG {
 	background-image: none;	
@@ -171,26 +177,9 @@ padding: 20px 0 20px 0;
 		padding: 0 0 10px 10px;
 	}
 
-	.StealADAPT {
-		margin: 0 auto;
-		width: 200px;
-		display: block;
-	}
-
-
 	.footer {
 	font-size: 13px;
 	padding: 20px 0 20px 0;
-	}
-}
-@media screen and (max-width: 300px) {
-	.ImgCenter {
-		text-align: center;
-	}
-	img {
-		float: none;
-		margin-top: -10px;
-		margin-bottom: 10px;
 	}
 }
 @media screen and (max-width: 220px) {
@@ -207,7 +196,7 @@ padding: 20px 0 20px 0;
 <div class="menuContent"> <!-- Левый сайт бар --> 
 <p style="padding: 20px 0 0 30px; font-weight: bold;" class="ForH1">Виды спорта:</p> 
 <ul class="ulBlock"><span class="Other">Виды спорта:</span> 
-<span class="StealADAPT"><li><a href="http:yandex.ru" target="_blank">конькобежный спорт</a></li> 
+<li><a href="http:yandex.ru" target="_blank">конькобежный спорт</a></li> 
 <li><a href="http:yandex.ru" target="_blank" >биатлон</a></li> 
 <li><a href="http:yandex.ru" target="_blank" >футбол</a></li> 
 <li><a href="http:yandex.ru" target="_blank" >стрельба из лука</a></li> 

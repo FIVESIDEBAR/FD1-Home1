@@ -1,0 +1,60 @@
+
+.form {
+width: 100%;
+font-family: sans-serif;
+font-size: 15px;		
+}
+.padding {
+padding-right: 7.6em;
+}
+.padding2 {
+padding-right: 5.8em;
+}
+form p {
+padding-left: 10px;
+}
+ul {
+list-style-type: none;	
+padding: 10px;
+}
+
+ul li {
+padding-top: 5px
+}
+
+ul li:nth-child(5) {
+padding-top: 10px;
+}
+.textarea {
+border: none;
+width: 100%;
+}
+.mobile {
+display: none;	
+}
+.mobile2 {
+display: none;
+}
+
+@media all and (max-width: 570px){
+	.mobile2 {
+		display: inline;
+		padding: 0;
+	}
+	.dekstop2 {
+		display: none;
+	}
+	.mobilePaddBott {
+		display: block;
+		padding-bottom: 20px;
+	}
+	
+}
+
+@media all and (max-width: 480px){
+	.widthSelect {
+		width: 100%;
+	}
+
+	
+}

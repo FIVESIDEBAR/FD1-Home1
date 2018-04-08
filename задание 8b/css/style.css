@@ -1,0 +1,43 @@
+* {
+margin: 0;
+padding: 0;	
+}
+.container {
+width: 100%
+}
+.IMG {
+width: 25em;
+height: 25em;	
+position: relative;	
+margin: 0 auto;
+}
+.pictureAbsolute{
+	position: absolute;
+	top: 7%;
+}
+.pictureAbsolute2{
+	position: absolute;
+	left: 55%;
+}
+.pictureAbsolute3{
+	position: absolute;
+	top: 50%;
+	left: 27%;
+}
+.pictureAbsolute4{
+	position: absolute;
+	top: 15%;
+	left: 20%;
+}
+.pictureAbsolute:hover{
+	z-index: 1;
+}
+.pictureAbsolute2:hover{
+	z-index: 1;
+}
+.pictureAbsolute3:hover{
+	z-index: 1;
+}
+
+
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<meta charset="utf-8">
+	<title>MAKET_FORM</title>
+</head>
+<body>
+<div class="form">	
+	<form method="GET" action="search.php">
+		<p>Для публикации вашей статьи, заполните пожалуйста следующую форму:</p>
+			<ul><span class="mobilePaddBott">Название статьи:</span>
+					<li class="dekstop"><span class="padding">Рубрика:</span>
+						<select class="widthSelect" name="podrazdel"><option value="1">программирование</option></select>
+					</li>
+							<li class="dekstop2"><span class="padding2">Публикация:</span>
+								<input type="radio" name="test" value="1">на сайте
+								<input type="radio" name="test" value="2">в журнале
+								<input type="radio" name="test" value="Full">на сайте и в журнале
+							</li>
+									<!-- ul срабатывает при разрешении max width 570px -->
+							<ul class="mobile2">
+								<li>Публикация:</br>
+								<input type="radio" name="test" value="1">на сайте</br>
+								<input type="radio" name="test" value="2">в журнале</br>
+								<input type="radio" name="test" value="Full">на сайте и в журнале
+								</li>
+							</ul>
+
+						<li>
+							<span>Разрешить комментарии:</span>
+							<input type="checkbox" name="resolution" value="yes" checked>
+						</li>
+					<li>Текст статьи:</br>
+						<textarea class="textarea" name="otherText"></textarea>
+					</li>
+				<li>
+					<button value="submit" name="push">Опубликовать</button>
+				</li>
+			</ul>
+	</form>
+</div>
+</body>
+</html>

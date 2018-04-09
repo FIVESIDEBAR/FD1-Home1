@@ -6,7 +6,10 @@
 <title>MAKET_DIV</title> 
 </head> 
 <body> 
-<style type="text/css"> 
+<style type="text/css">
+body {
+	width: 100%;
+} 
 
 * { 
 padding: 0; 
@@ -34,17 +37,15 @@ font-size: 20px;
 padding: 10px 0 10px 0;
 } 
 .blockStatic {
+width: 100px;
+font-size: 12px;
 border: 1px solid green;
 background-color: lightgreen;
 color: #000000;	
 text-decoration: underline;
-padding: 5px 15px 5px 15px;	
 position: fixed;
-text-align: center;
-top: 1em;
-left: 82%;
-
-
+right: 30px;
+top: 25px;
 }
 .menuBG { 
 background: url(images/BGIMG.png) repeat-y left top; 	
@@ -102,6 +103,7 @@ padding: 20px 0 20px 0;
 </style> 
 <div class="header"> <!-- шапка --> 
 ПРИВЕТ УЧАСТНИКАМ СОРЕВНОВАНИЙ! 
+<div class="blockStatic">ВСТУПИТЬ</br>В КЛУБ</div>
 
 </div> 
 <div class="menuBG"> 
@@ -132,7 +134,7 @@ padding: 20px 0 20px 0;
 <div class="both"></div> 
 </div> 
 </div> 
-<div class="blockStatic">ВСТУПИТЬ</br>В КЛУБ</div>
+
 <div class="footer"> <!-- подвал --> 
 ГЛАВНОЕ НЕ ПОБЕДА, А УЧАСТИЕ! 
 </div> 

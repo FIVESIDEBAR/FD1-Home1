@@ -1,8 +1,22 @@
+body {
+	height: 100%;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 15px;
+}
 
-.form {
-width: 100%;
-font-family: sans-serif;
-font-size: 15px;		
+.div1 {
+	 height: 20px;
+}
+.div2{
+margin: 0 10px 0 190px;
+}
+.input {
+	width: 100%;
+}
+.div3 {
+	float: left;
+	margin: -20px 0 0 10px;
 }
 .padding {
 padding-right: 7.6em;
@@ -16,6 +30,8 @@ padding-left: 10px;
 ul {
 list-style-type: none;	
 padding: 10px;
+margin-top: 0;
+padding-top: 0;
 }
 
 ul li {
@@ -35,6 +51,11 @@ display: none;
 .mobile2 {
 display: none;
 }
+.mobileInput{
+	display: none;
+}
+
+
 
 @media all and (max-width: 570px){
 	.mobile2 {
@@ -44,17 +65,16 @@ display: none;
 	.dekstop2 {
 		display: none;
 	}
-	.mobilePaddBott {
-		display: block;
-		padding-bottom: 20px;
-	}
-	
-}
-
-@media all and (max-width: 480px){
 	.widthSelect {
 		width: 100%;
 	}
+	.div1 {
+		display: none;
+	}
+	.mobileInput {
+		display: block;
+		margin:0 15px 0 10px;
 
+	}
 	
 }

@@ -1,0 +1,30 @@
+#svg_1:hover{
+	fill: blue;
+	stroke: red;
+	stroke-width:5.5;
+}
+#svg_2:hover{
+	fill: purple;
+	stroke: yellow;	
+	stroke-width:19.5;
+}
+path#svg_3:hover{
+	fill: white;
+	stroke: lime;
+	stroke-width:15.5;
+}
+#svg_5:hover{
+	fill: silver;
+	stroke: red;
+	stroke-width:11.5;
+}
+#svg_6:hover{
+	fill: orange;
+	stroke: silver;
+	stroke-width:21.5;
+}
+#svg_7:hover{
+	fill: red;
+	stroke: blue;
+	stroke-width:9.5;
+}
